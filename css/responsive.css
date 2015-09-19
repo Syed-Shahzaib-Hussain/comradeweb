@@ -140,4 +140,35 @@
 	    font-size: 55px;
 	}
 
+	.clients li {
+	    width: 11.6666%;
+	    line-height: 114px;
+	    margin: 2.5%;
+	}
+
+
+}
+
+@media screen and (min-width: 1650px) {
+
+	.para2 {
+	    padding: 90px 213px;
+	    font-size: 30px;
+	    line-height: 33px;
+	    display: inline-block;
+	}
+
+	.para2 img {
+	    float: left;
+	}
+
+	.heading {
+    font-size: 49px;
+    line-height: 45px;
+	}
+
+	.para2 p {
+    line-height: 44px;
+	}
+
 }
