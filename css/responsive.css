@@ -1,0 +1,143 @@
+@media screen and (min-width: 480px) {
+
+
+	/*****************************/
+	/************BODY*************/
+	/*****************************/
+
+	.sustainable {
+		background: url(../images/ico_growth.png) no-repeat 0 0 / auto 100%;
+	}
+
+}
+
+
+
+
+@media screen and (min-width: 500px) {
+
+	.textOverVideo span {
+	    font-size: 48px;
+	    line-height: 1.7;
+	}
+
+	.textOverVideo .revolutionize {
+		 font-size: 50px;
+	}
+
+	.para1 {
+		font-size: 20px;
+	}
+
+	.clients {
+	text-align: center;
+    background: #f8f8f8;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 35px 0 15px;
+    margin: -5px;
+	}
+
+	.clients li {
+		margin: 2.5%;
+	    float: left;
+	    width: 28.3333%;
+	    line-height: 114px;
+	}
+
+	.clients li img {
+	    vertical-align: middle;
+	}
+}
+
+
+
+
+@media screen and (min-width: 650px) {
+
+
+	.textOverVideo {
+		top: 168px;
+	}
+
+	.textOverVideo span {
+	    font-size: 65px;
+	}
+
+	.textOverVideo .revolutionize {
+		 font-size: 68px;
+	}
+
+	.para1 {
+		font-size: 24px;
+	}
+
+	.clients li:nth-child(2) {
+		/*clear: right;*/
+	}
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 660px) {
+
+
+	/*****************************/
+	/************HEADER***********/
+	/*****************************/
+	#mobileHeader {
+		display: none;
+	}
+
+	#newHeader{
+		display: flex;
+	}
+
+
+	/*****************************/
+	/************BODY*************/
+	/*****************************/
+	
+	.para1 {
+		font-size: 27px;
+	}
+}
+
+
+
+@media screen and (min-width: 1038px) {
+
+	/*****************************/
+	/************HEADER***********/
+	/*****************************/
+
+	
+
+	/*****************************/
+	/************BODY*************/
+	/*****************************/
+	
+	.textOverVideo {
+		top: 250px;
+	}
+
+	.textOverVideo span {
+	    font-size: 96px;
+	}
+
+	.textOverVideo .revolutionize {
+
+		font-size: 100px;
+	}
+
+	.getResults {
+	    margin: -15px 0;
+		padding: 20px;
+	    border-radius: 4px;
+	    font-size: 55px;
+	}
+
+}

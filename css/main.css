@@ -1,0 +1,359 @@
+/*****************************/
+/**********GENERAL************/
+/*****************************/
+ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+
+li {
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #fff;
+}
+
+img {
+	max-width: 100%
+}
+/*****************************/
+/**********HEADER*************/
+/*****************************/
+.logoBG {
+	background-image: url('../images/mobile-bg.png');
+	background-repeat: repeat-x;
+}
+
+#logo {
+	text-align: center;
+    background-image: url('../images/star.png');
+    background-repeat: no-repeat;
+    display: table;
+    padding-left: 30px;
+    margin: 0 auto;
+    min-height: 28px;
+}
+
+.menuButtons li {
+	float: left;
+    background-color: black;
+    width: 50%;
+    text-align: center;
+    padding: 8px 0;
+    font-weight: bolder;
+}
+
+/*NEW HEADER CSS*/
+
+#newHeader{
+    display: none;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 9999;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px #000;
+}
+
+#newHeader a img {
+
+}
+#newHeader a {
+    width: 20%;
+    text-align: center;
+}
+
+#newHeader a:link, a:visited {
+    color: #000;
+} 
+
+#menuButtonsNew {
+    width: 40%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+} 
+
+#menuButtonsNew li {
+    float: left;
+    width: 33.3333%;
+    padding: 13px 0px;
+} 
+
+/*****************************/
+/************BODY*************/
+/*****************************/
+body {
+	font-family: 'BrandonGrotesque';
+	padding: 0;
+	margin: 0;
+}
+
+.videoContainer , .videoContainer video{
+	position: relative;
+    z-index: 0;
+    width: 100%;
+}
+
+.textOverVideo {
+	position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 115px;
+    font-size: 31px;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    line-height: 34px;
+}
+
+.textOverVideo .revolutionize{
+    margin:0;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.textOverVideo span {
+	font-weight: 100; 
+	font-size: 30px;
+}
+
+.getResults, .button {
+	margin: 5px 0;
+    background-color: rgba(4, 121, 0, 0.88);
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 2px;
+    font-size: 27px;
+    color: #fff;
+}
+
+.heading {
+	text-align: center;
+    font-size: 28px;
+    line-height: 33px;
+    margin: 0;
+    color: #8E8D8D;
+}
+
+.para1 {
+	text-align: center;
+    font-size: 17px;
+    padding: 4% 6%;
+    font-weight: 500;
+    color: #464646;
+}
+
+.banner {
+	text-align: center;
+	margin: 0 auto;
+    display: block;
+}
+
+.clients {
+	text-align: center;
+	background: #f8f8f8;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 15px 0;
+    margin: -5px;
+}
+
+.clients li {
+	margin: 30px;
+}
+
+.para2 {
+	padding: 40px 20px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 33px;
+}
+.para2 p {
+    line-height: 27px;
+}
+
+.para3 {
+	background: #f8f8f8;
+    border: solid #eeeeee;
+    border-width: 1px 0 1px;
+    text-align: center;
+    padding: 50px 12%;
+}
+
+.para3 div {
+	text-align: left;
+	width: auto;
+    margin: 0;
+    padding: 0 0 0 100px;
+}
+
+.para3 h3 {
+	font-weight: 900;
+	font-size: 25px;
+}
+
+.discovery {
+	background: url(../images/ico_discovery.png) no-repeat 0 0 / auto 100%;
+}
+
+.analyze {
+	background: url(../images/ico_analyze.png) no-repeat 0 0 / auto 100%;
+}
+
+.build {
+	background: url(../images/ico_build.png) no-repeat 0 0 / auto 100%;
+}
+
+.promote {
+	background: url(../images/ico_promote.png) no-repeat 0 0 / auto 100%;
+}
+
+.sustainable {
+	background: url(../images/ico_growth_2.png) no-repeat 0 0 / auto 100%;
+}
+
+/*PARA 4*/
+.para4 {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.para4 ul {
+    overflow: hidden;
+}
+
+.para4 img {
+    width: 100%;
+}
+
+.services li {
+    float: left;
+    width: 50%;
+    margin: 0 0 -2.2%;
+    padding: 0;
+}
+
+.para5 {
+    text-align: center;
+    padding: 50px 0 0;
+    background: #f8f8f8;
+    border: #f3f3f3 solid;
+    border-width: 1px 0;
+    color: #fff;
+}
+
+.greenBox {
+    background: #76ac31;
+    margin: 30px 10%;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.greenBox h2 {
+    background: #609823;
+    min-height: 50px;
+    margin: 0;
+}
+
+.greenBox span {
+    background: url('../images/ico-blog.png') no-repeat;
+    padding: 0 30px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.greenBox p {
+    padding: 0 40px;
+    margin: 25px 0;
+}
+
+.greenBox h3 {
+    padding: 0 5%;
+}
+.readMore {
+    background-color: #4F8514;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.blueBox {
+    background: #67aeeb;
+    margin: 30px 10%;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.blueBox ul {
+    background-color: #1b75ba;
+    overflow: hidden;
+}
+
+.blueBox ul li {
+    float: left;
+    width: 49.8%;
+    line-height: 5;
+}
+
+.blueBox img {
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+}
+
+.seperator {
+    background-color: #fff;
+    width: 1px!important;
+    height: 80px;
+    opacity: 0.5;
+}
+
+.newsLetter {
+    background: #00756b;
+    margin: 30px 10%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.newsLetter h2 {
+    background-color: #005f55;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.newsLetter h2 span {
+    background-image: url('../images/ico-newsletter.png');
+    background-repeat: no-repeat;
+    padding: 0 0 0 40px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.newsLetter input {
+    min-width: 230px;
+    min-height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    width: 60%;
+    max-width: 600px;
+}
+
+.signup {
+    background-color: #005f55;
+    padding: 8px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 25px 0 0 0;
+    font-weight: bold;
+}
