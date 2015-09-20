@@ -107,6 +107,25 @@
 }
 
 
+@media screen and (min-width: 950px) {
+	.para3 {
+	    padding: 50px 12%;
+	    font-size: 27px;
+	}
+
+	.para3 div{
+	text-align: left;
+    width: 519px;
+    margin: 60px auto;
+    padding: 0 0 0 108px;
+	}
+
+	.arrow {
+		display: inline;
+	}
+}
+
+
 
 @media screen and (min-width: 1038px) {
 
@@ -147,12 +166,41 @@
 	}
 
 
+	.para2 {
+	    font-size: 27px;
+	    line-height: 33px;
+	    display: inline-block;
+	}
+
+	.para2 img {
+	    float: left;
+	}
+
+
+	.heading {
+	    font-size: 35px;
+	    line-height: 37px;
+	}
+
+	.para2 p {
+    line-height: 33px;
+	}
+
 }
+
+
+@media screen and (min-width: 1450px) {
+	.para2 {
+	    padding: 60px 185px;
+	}
+
+}
+
+
 
 @media screen and (min-width: 1650px) {
 
 	.para2 {
-	    padding: 90px 213px;
 	    font-size: 30px;
 	    line-height: 33px;
 	    display: inline-block;
@@ -163,8 +211,8 @@
 	}
 
 	.heading {
-    font-size: 49px;
-    line-height: 45px;
+	    font-size: 49px;
+	    line-height: 45px;
 	}
 
 	.para2 p {

@@ -149,7 +149,7 @@ body {
     font-size: 28px;
     line-height: 33px;
     margin: 0;
-    color: #8E8D8D;
+    color: #000;
 }
 
 .para1 {
@@ -210,6 +210,16 @@ body {
 .para3 h3 {
 	font-weight: 900;
 	font-size: 25px;
+}
+
+.arrow{
+    margin: 0 290px 0 0;
+    display: none;
+}
+
+.leftImages {
+    margin: 0;
+    width: 31%;
 }
 
 .discovery {
