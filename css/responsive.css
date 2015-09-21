@@ -116,13 +116,46 @@
 	.para3 div{
 	text-align: left;
     width: 519px;
-    margin: 60px auto;
+    margin: 0px auto;
     padding: 0 0 0 108px;
 	}
 
 	.arrow {
 		display: inline;
 	}
+
+	.leftImages{
+	 display: block;
+	 margin: 0 0 0 -180px!important;
+	}
+
+	.threeservices {
+    padding: 100!important;
+	}
+
+	.analyze, .build, .promote {
+		padding: 0 0 0 220px!important;
+		background-image: none;
+		margin: 0 auto;
+	}
+
+	.line2 {
+	    position: absolute;
+	    left: 153px;
+	    display: inline;
+	}
+
+	.services li {
+		width: 33.3333%;
+	}
+
+
+	.greenBox, .blueBox, .newsLetter{
+		width: 28.3333%;
+		float: left;
+		margin: 2.5%;
+	}
+
 }
 
 

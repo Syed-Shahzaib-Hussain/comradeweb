@@ -217,29 +217,68 @@ body {
     display: none;
 }
 
+.threeservices {
+    padding: 0!important;
+}
+
 .leftImages {
-    margin: 0;
-    width: 31%;
+    padding: 0!important;
+    position: relative!important;
+    width: 340px!important;
+    margin: 0 0 0 -240px!important;
+    float: left;
+    display: none;
+}
+
+.line2 {
+    display: none;
+    margin-top: -40px;
+}
+
+.cycleStar {    
+    position: absolute!important;
+    top: 32%!important;
+    left: 32%!important;
 }
 
 .discovery {
 	background: url(../images/ico_discovery.png) no-repeat 0 0 / auto 100%;
 }
 
+.discovery h3 {
+    color: #C92027;
+}
+
 .analyze {
 	background: url(../images/ico_analyze.png) no-repeat 0 0 / auto 100%;
+}
+
+.analyze h3 {
+     color: #2066AB;
 }
 
 .build {
 	background: url(../images/ico_build.png) no-repeat 0 0 / auto 100%;
 }
 
+.build h3 {
+    color: #C9C92D;
+}
+
 .promote {
 	background: url(../images/ico_promote.png) no-repeat 0 0 / auto 100%;
 }
 
+.promote h3 {
+    color: #C7187D;
+}
+
 .sustainable {
 	background: url(../images/ico_growth_2.png) no-repeat 0 0 / auto 100%;
+}
+
+.sustainable h3 {
+    color: #129B4A;
 }
 
 /*PARA 4*/
